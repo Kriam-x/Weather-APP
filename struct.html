@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="design.css">
+        <script src="/Weather_App/fend.js"></script>
+        <title>To-Do</title>
+    </head>
+    <body>
+        <h1>World Wide Weather</h1>
+        <div class="container">
+            <h2>Forecast</h2>
+            <div class="input_con">
+                <input type="text"  id="city_input" placeholder="City name">
+                <button id="input_btn">Get Weather</button>
+            </div>
+            <div id="weatherinfo" class="hidden">
+                <h2 class="cityname"></h2>
+                <p class="temp"></p>
+                <p class="description"></p>
+            </div>
+            <p id="errormsg" class="hidden">City not found try again</p>
+        </div>
+</body>
+</html>
